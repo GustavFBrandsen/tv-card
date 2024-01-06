@@ -163,8 +163,9 @@ class TVCardServices extends LitElement {
     changeSource(source) {
         let entity_id = this._config.entity;
 
-        this._hass.callService("media_player", "play_media", {
-            source: source,
+        this._hass.callService("media_player", "select_source", {
+            media_content_id: source,
+            media_content_type: "app",
             entity_id: entity_id,
         });
     }
