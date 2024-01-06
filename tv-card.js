@@ -29,10 +29,10 @@ const sources = {
     "spotify": {"source": "3201606009684", "icon": "mdi:spotify"},
     "netflix": {"source": "3201907018807", "icon": "mdi:netflix"},
     "youtube": {"source": "111299001912", "icon": "mdi:youtube"},
-    "hbomax": {"source": "3201601007230", "icon": "mdi:alpha-h"},
-    "disney": {"source": "3201901017640", "icon": "mdi:alpha-d"},
-    "primevideo": {"source": "3201910019365", "icon": "mdi:alpha-p"},
-    "viaplay": {"source": "11111300404", "icon": "mdi:alpha-v"},
+    "hbomax": {"source": "3201601007230", "icon": "phu:hbo"},
+    "disney": {"source": "3201901017640", "icon": "phu:disney-plus"},
+    "primevideo": {"source": "3201910019365", "icon": "phu:prime-video"},
+    "viaplay": {"source": "11111300404", "icon": "phu:viaplay"},
     "twitch": {"source": "3202203026841", "icon": "mdi:twitch"},
 };
 
