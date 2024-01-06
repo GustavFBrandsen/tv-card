@@ -121,7 +121,7 @@ class TVCardServices extends LitElement {
         this._hassResolve = undefined;
 
         let slider_config = {
-            "type": "custom:my-slider",
+            "type": "custom:slider-entity-row",
             "entity": this._config.entity,
             "height": "50px",
             "mainSliderColor": "white",
