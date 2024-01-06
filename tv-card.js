@@ -32,6 +32,8 @@ const sources = {
     "hbomax": {"source": "3201601007230", "icon": "mdi:alpha-h"},
     "disney": {"source": "3202204027038", "icon": "mdi:alpha-d"},
     "primevideo": {"source": "3201910019365", "icon": "mdi:alpha-p"},
+    "viaplay": {"source": "11111300404", "icon": "mdi:alpha-v"},
+    "twitch": {"source": "3202203026841", "icon": "mdi:twitch"},
 };
 
 var fireEvent = function(node, type, detail, options) {
