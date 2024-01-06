@@ -124,6 +124,7 @@ class TVCardServices extends LitElement {
             "type": "custom:slider-entity-row",
             "entity": this._config.entity,
             "height": "50px",
+            "full_row": "true",
             "mainSliderColor": "white",
             "secondarySliderColor": "rgb(60, 60, 60)",
             "mainSliderColorOff": "rgb(60, 60, 60)",
