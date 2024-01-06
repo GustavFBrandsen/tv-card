@@ -29,9 +29,9 @@ const sources = {
     "netflix": {"key": "3201907018807", "icon": "mdi:netflix"},
     "spotify": {"key": "3201606009684", "icon": "mdi:spotify"},
     "youtube": {"key": "111299001912", "icon": "mdi:youtube"},
-    "hbo-max": {"key": "3201601007230", "icon": "mdi:alpha-h"},
-    "disney+": {"key": "3202204027038", "icon": "mdi:alpha-d"},
-    "prime-video": {"key": "3201910019365", "icon": "mdi:alpha-p"},
+    "hbomax": {"key": "3201601007230", "icon": "mdi:alpha-h"},
+    "disney": {"key": "3202204027038", "icon": "mdi:alpha-d"},
+    "primevideo": {"key": "3201910019365", "icon": "mdi:alpha-p"},
 };
 
 var fireEvent = function(node, type, detail, options) {
