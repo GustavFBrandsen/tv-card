@@ -23,15 +23,15 @@ const keys = {
     "play": {"key": "KEY_PLAY", "icon": "mdi:play"},
     "pause": {"key": "KEY_PAUSE", "icon": "mdi:pause"},
     "fast_forward": {"key": "KEY_FF", "icon": "mdi:fast-forward"},
-};
-
-const sources = {
     "netflix": {"key": "3201907018807", "icon": "mdi:netflix"},
-    "spotify": {"key": "3201606009684", "icon": "mdi:spotify"},
     "youtube": {"key": "111299001912", "icon": "mdi:youtube"},
     "hbomax": {"key": "3201601007230", "icon": "mdi:alpha-h"},
     "disney": {"key": "3202204027038", "icon": "mdi:alpha-d"},
     "primevideo": {"key": "3201910019365", "icon": "mdi:alpha-p"},
+};
+
+const sources = {
+    "spotify": {"key": "3201606009684", "icon": "mdi:spotify"},
 };
 
 var fireEvent = function(node, type, detail, options) {
