@@ -26,12 +26,12 @@ const keys = {
 };
 
 const sources = {
-    "spotify": {"sources": "3201606009684", "icon": "mdi:spotify"},
-    "netflix": {"sources": "3201907018807", "icon": "mdi:netflix"},
-    "youtube": {"sources": "111299001912", "icon": "mdi:youtube"},
-    "hbomax": {"sources": "3201601007230", "icon": "mdi:alpha-h"},
-    "disney": {"sources": "3202204027038", "icon": "mdi:alpha-d"},
-    "primevideo": {"sources": "3201910019365", "icon": "mdi:alpha-p"},
+    "spotify": {"source": "3201606009684", "icon": "mdi:spotify"},
+    "netflix": {"source": "3201907018807", "icon": "mdi:netflix"},
+    "youtube": {"source": "111299001912", "icon": "mdi:youtube"},
+    "hbomax": {"source": "3201601007230", "icon": "mdi:alpha-h"},
+    "disney": {"source": "3202204027038", "icon": "mdi:alpha-d"},
+    "primevideo": {"source": "3201910019365", "icon": "mdi:alpha-p"},
 };
 
 var fireEvent = function(node, type, detail, options) {
