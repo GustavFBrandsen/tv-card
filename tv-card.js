@@ -132,7 +132,6 @@ class TVCardServices extends LitElement {
             "entity": this._config.entity,
             "mode": "volume",
             "intermediate": true,
-            "step": 1,
             "min": 0,
             "max": 50,
             "styles": {
