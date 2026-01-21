@@ -129,7 +129,7 @@ class TVCardServices extends LitElement {
 
         let slider_config = {
             "type": "custom:my-slider-v2",
-            "entity": "light.sofabord",
+            "entity": this._config.entity,
             "mode": "volume",
             "styles": {
                 "card": [
