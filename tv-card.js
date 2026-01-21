@@ -125,17 +125,34 @@ class TVCardServices extends LitElement {
         this._helpersResolve = undefined;
         this._hassResolve = undefined;
 
+
+
         let slider_config = {
-            "type": "custom:my-slider",
-            "entity": this._config.entity,
-            "height": "50px",
-            "mainSliderColor": "white",
-            "secondarySliderColor": "rgb(60, 60, 60)",
-            "mainSliderColorOff": "rgb(60, 60, 60)",
-            "secondarySliderColorOff": "rgb(60, 60, 60)",
-            "thumbWidth": "0px",
-            "thumbHorizontalPadding": "0px",
-            "radius": "25px",
+            "type": "custom:my-slider-v2",
+            "entity": "light.sofabord",
+            "mode": "volume",
+            "styles": {
+                "card": [
+                    { "height": "50px" }
+                ],
+                "progress": [
+                    { "background-color": "white" }
+                ],
+                "thumb": [
+                    { "width": "0px" }
+                ]
+            }
+            //"type": "custom:my-slider",
+            //"entity": this._config.entity,
+            //"height": "50px",
+            //"mainSliderColor": "white",
+            //"secondarySliderColor": "rgb(60, 60, 60)",
+            //"mainSliderColorOff": "rgb(60, 60, 60)",
+            //"secondarySliderColorOff": "rgb(60, 60, 60)",
+            //"thumbWidth": "0px",
+            //"thumbHorizontalPadding": "0px",
+            //"radius": "25px",
+            //"allowSliding": "true"
             //slider without my-slider HACS install
             //"type": "custom:slider-entity-row",
             //"entity": this._config.entity,
