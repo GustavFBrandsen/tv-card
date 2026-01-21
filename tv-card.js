@@ -34,6 +34,9 @@ const sources = {
     "primevideo": {"source": "3201910019365", "icon": "phu:prime-video"},
     "viaplay": {"source": "11111300404", "icon": "phu:viaplay"},
     "twitch": {"source": "3202203026841", "icon": "mdi:twitch"},
+    "skyshowtime": {"source": "3202208028071", "icon": "phu:sky-showtime"},
+    "tv2play": {"source": "3202204027042", "icon": "phu:tv2tv"},
+    "plex": {"source": "3201512006963", "icon": "phu:plex"},
 };
 
 var fireEvent = function(node, type, detail, options) {
