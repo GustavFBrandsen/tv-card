@@ -135,8 +135,14 @@ class TVCardServices extends LitElement {
                 "card": [
                     { "height": "50px" }
                 ],
+                "container": [
+                    { "border-radius": "15px" }
+                ],
                 "progress": [
                     { "background-color": "white" }
+                ],
+                "track": [
+                    { "background-color": "#808080" }
                 ],
                 "thumb": [
                     { "width": "0px" }
@@ -153,6 +159,7 @@ class TVCardServices extends LitElement {
             //"thumbHorizontalPadding": "0px",
             //"radius": "25px",
             //"allowSliding": "true"
+            
             //slider without my-slider HACS install
             //"type": "custom:slider-entity-row",
             //"entity": this._config.entity,
