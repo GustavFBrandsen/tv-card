@@ -131,10 +131,9 @@ class TVCardServices extends LitElement {
             "type": "custom:my-slider-v2",
             "entity": this._config.entity,
             "mode": "volume",
-            "step": "1",
             "intermediate": "true",
             "min": "0",
-            "max": "50",
+            "max": "0.5",
             "styles": {
                 "card": [
                     { "height": "50px" }
