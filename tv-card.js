@@ -23,16 +23,6 @@ const keys = {
     "play": {"key": "KEY_PLAY", "icon": "mdi:play"},
     "pause": {"key": "KEY_PAUSE", "icon": "mdi:pause"},
     "fast_forward": {"key": "KEY_FF", "icon": "mdi:fast-forward"},
-    "playpause_1": { "key": "KEY_PLAYPAUSE", "icon": "mdi:play-pause" },
-    "playpause_2": { "key": "KEY_MEDIA_PLAY_PAUSE", "icon": "mdi:play-pause" },
-    "playpause_3": { "key": "KEY_PLAYPAUSE_TOGGLE", "icon": "mdi:play-pause" },
-    "playpause_4": { "key": "KEY_PAUSE_PLAY", "icon": "mdi:play-pause" },
-    "playpause_5": { "key": "KEY_TOGGLE_PLAY", "icon": "mdi:play-pause" },
-    "playpause_6": { "key": "KEY_TOGGLE", "icon": "mdi:play-pause" },
-    "playpause_7": { "key": "KEY_PLAY_PAUSE_MEDIA", "icon": "mdi:play-pause" },
-    "playpause_8": { "key": "KEY_MEDIA_TOGGLE", "icon": "mdi:play-pause" },
-    "playpause_9": { "key": "KEY_PLAYPAUSE_SWITCH", "icon": "mdi:play-pause" },
-    "playpause_10": { "key": "KEY_PLAYPAUSE_CMD", "icon": "mdi:play-pause" },
 };
 
 const sources = {
@@ -136,14 +126,9 @@ class TVCardServices extends LitElement {
         this._hassResolve = undefined;
 
         let slider_config = {
-            "type": "custom:slider-entity-row",
+            "type": "custom:my-slider",
             "entity": this._config.entity,
             "height": "50px",
-            "full_row": "true",
-            "min": "0",
-            "max": "50",
-            "step": "1",
-            "grow": "true",
             "mainSliderColor": "white",
             "secondarySliderColor": "rgb(60, 60, 60)",
             "mainSliderColorOff": "rgb(60, 60, 60)",
@@ -151,6 +136,22 @@ class TVCardServices extends LitElement {
             "thumbWidth": "0px",
             "thumbHorizontalPadding": "0px",
             "radius": "25px",
+            //slider without my-slider HACS install
+            //"type": "custom:slider-entity-row",
+            //"entity": this._config.entity,
+            //"height": "50px",
+            //"full_row": "true",
+            //"min": "0",
+            //"max": "50",
+            //"step": "1",
+            //"grow": "true",
+            //"mainSliderColor": "white",
+            //"secondarySliderColor": "rgb(60, 60, 60)",
+            //"mainSliderColorOff": "rgb(60, 60, 60)",
+            //"secondarySliderColorOff": "rgb(60, 60, 60)",
+            //"thumbWidth": "0px",
+            //"thumbHorizontalPadding": "0px",
+            //"radius": "25px",
         };
 
         if (this._config.slider_config instanceof Object) {
